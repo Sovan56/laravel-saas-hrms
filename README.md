@@ -107,7 +107,7 @@ http://127.0.0.1:8000
 
 ## 📧 Email Setup (Gmail SMTP with App Password)
 
-This project uses **Gmail SMTP** with an **App Password** for sending emails (leave request notifications and forgot password).
+This project uses **Gmail SMTP** with an **App Password** for sending emails (**leave request** notifications and **forgot password**).
 
 ---
 
