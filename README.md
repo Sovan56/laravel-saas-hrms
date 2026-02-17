@@ -104,3 +104,32 @@ http://127.0.0.1:8000
 * Email configuration uses **SMTP with App Password**
 
 ---
+
+## 📧 Email Setup (Gmail SMTP with App Password)
+
+This project uses **Gmail SMTP** with an **App Password** for sending emails (leave request notifications and forgot password).
+
+---
+
+### 1️⃣ Generate Gmail App Password
+
+- Enable **2-Step Verification** in your Google account
+- Generate an **App Password** for Mail
+- Copy the generated 16-character password (no spaces)
+
+---
+
+### 2️⃣ Configure Mail in `.env`
+
+Update the following values in your `.env` file:
+
+```bash
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=your-email@gmail.com
+MAIL_PASSWORD=your-app-password
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=your-email@gmail.com
+MAIL_FROM_NAME="${APP_NAME}"
+
