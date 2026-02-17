@@ -1,13 +1,3 @@
-Perfect 👍
-Here is a **CLEAN, COPY-PASTE-READY `README.md`** exactly in the format you want:
-
-* ✅ **Only commands & URLs inside bash blocks**
-* ✅ Proper Markdown (no broken code blocks)
-* ✅ Professional & evaluator-friendly
-* ✅ You can paste this **directly** into GitHub README
-
----
-
 ````md
 # SaaS HRMS – Laravel Assignment
 
