@@ -1,4 +1,3 @@
-````md
 # SaaS HRMS – Laravel Assignment
 
 This project is a mini **SaaS-based HRMS** built using **Laravel 10** as part of a technical evaluation.  
